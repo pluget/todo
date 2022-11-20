@@ -4,7 +4,7 @@
 ![[PluGet]]
 
 ## Where to open it?
-Any software that supports Obsidian's Markdown version is good.
+Any software that supports Obsidian's version of Markdown is good.
 We recommend these softwares:
 - Obsidian (propriatary)
 - LogSeq (open-source)
