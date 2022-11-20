@@ -1,0 +1,39 @@
+- [ ] Repository services v1.0
+	- [x] Url of a file to CID on IPFS
+	- [ ] spigot.json / bukkit.json / github.json etc. to data.json
+	- [ ] Cache service
+		- spigot / bukkit etc. id / name to repository name
+	- [ ] Scraper
+		- [x] Integrate Sentry
+		- [x] Version to SemVer
+		- [ ] Save to repository service
+		- [ ] Spigot scraper
+			- [ ] New plugins
+				- Check if plugin already exists, but does not have spigot version added in repository.
+				- [x] Check if plugin is already in the repository, after pushing, add it to the repository
+			- [ ] Update
+				- [ ] Plugins data
+				- [ ] Versions
+		- [ ] Bukkit scraper
+			- [ ] New plugins
+			- [ ] Update
+				- [ ] Plugins data
+				- [ ] Versions
+	- [ ] GitHub fetcher
+		- [ ] Update
+			- [ ] Plugins data
+			- [ ] Versions
+	- [ ] GitLab fetcher
+		- [ ] Update
+			- [ ] Plugins data
+			- [ ] Versions
+- [ ] Repository services v1.1
+	- [ ] Supported game versions and api versions for certain version
+		- "-mc." in plugin name detection
+		- analize of plugin file
+- [ ] Repository services v1.2
+	- [ ] Automatic dependency detection
+		- E.g. by using GPT-3 on README
+	- [ ] Background image generator
+		- For newly created plugins
+		- Using minjourney/playgroundai.com
