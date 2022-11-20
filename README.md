@@ -1,4 +1,4 @@
-# TO-DO list for PluGet
+# To-Do list for PluGet
 
 ## Main file
 ![[PluGet]]
@@ -11,4 +11,5 @@ We recommend these softwares:
 
 ## License
 PluGet name and Pluget logo are still copyrighted! All rights reserved.
+
 [CC0-1.0](./LICENSE)
