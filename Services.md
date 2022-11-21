@@ -3,6 +3,7 @@
 	- [ ] Scraper
 		- [x] Integrate Sentry
 		- [x] Version to SemVer
+		- [ ] Generate unique and standardised name
 		- [ ] Save to repository
 			- [x] Spigot
 			- [ ] Bukkit
