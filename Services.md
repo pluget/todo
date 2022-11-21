@@ -1,12 +1,13 @@
 - [ ] Repository services v1.0
 	- [x] Url of a file to CID on IPFS
-	- [ ] spigot.json / bukkit.json / github.json etc. to data.json
-	- [ ] Cache service
-		- spigot / bukkit etc. id / name to repository name
 	- [ ] Scraper
 		- [x] Integrate Sentry
 		- [x] Version to SemVer
-		- [ ] Save to repository service
+		- [ ] Save to repository
+			- [x] Spigot
+			- [ ] Bukkit
+			- [ ] GitHub
+			- [ ] GitLab
 		- [ ] Spigot scraper
 			- [ ] New plugins
 				- Check if plugin already exists, but does not have spigot version added in repository.
@@ -23,11 +24,15 @@
 		- [ ] Update
 			- [ ] Plugins data
 			- [ ] Versions
+	- [ ] spigot.json / bukkit.json / github.json etc. to data.json
+	- [ ] Cache service
+		- spigot / bukkit etc. id / name to repository name
+- [ ] Repository services v1.1
 	- [ ] GitLab fetcher
 		- [ ] Update
 			- [ ] Plugins data
 			- [ ] Versions
-- [ ] Repository services v1.1
+	- [ ] BitBucket fetcher
 	- [ ] Supported game versions and api versions for certain version
 		- "-mc." in plugin name detection
 		- analize of plugin file
