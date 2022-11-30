@@ -1,9 +1,11 @@
 - [ ] Repository services v1.0
 	- [x] Url of a file to CID on IPFS
+	- [ ] Cache service (database interface)
+		- spigot / bukkit etc. id / name to repository name
 	- [ ] Scraper
 		- [x] Integrate Sentry
 		- [x] Version to SemVer
-		- [ ] Generate unique and standardised name
+		- [x] Generate unique and standardised name
 		- [ ] Save to repository
 			- [x] Spigot
 			- [ ] Bukkit
@@ -26,8 +28,6 @@
 			- [ ] Plugins data
 			- [ ] Versions
 	- [ ] spigot.json / bukkit.json / github.json etc. to data.json
-	- [ ] Cache service
-		- spigot / bukkit etc. id / name to repository name
 - [ ] Repository services v1.1
 	- [ ] GitLab fetcher
 		- [ ] Update
