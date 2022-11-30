@@ -44,3 +44,5 @@
 	- [ ] Background image generator
 		- For newly created plugins
 		- Using minjourney/playgroundai.com
+- [ ] Repository services v1.3
+	- [ ] Get Bukkit usernames from web.archive.org
