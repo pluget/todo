@@ -6,6 +6,7 @@
 		- [x] Integrate Sentry
 		- [x] Version to SemVer
 		- [x] Generate unique and standardised name
+			- [ ] Move from hardcoded to using GPT-3
 		- [ ] Save to repository
 			- [x] Spigot
 			- [ ] Bukkit
