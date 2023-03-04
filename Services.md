@@ -1,4 +1,9 @@
 - [ ] Repository services v1.0
+	- [x] AI
+		- NER
+			- [x] Title and Description to Std Name
+		- SeqToSeq
+			- [x] Temporary solution: Regex script
 	- [x] Url of a file to CID on IPFS
 	- [ ] Cache service (database interface)
 		- spigot / bukkit etc. id / name to repository name
@@ -8,10 +13,6 @@
 		- [x] Generate unique and standardised name
 			- [x] Move from hardcoded to using GPT-3
 		- [ ] Save to repository
-			- [x] Spigot
-			- [ ] Bukkit
-			- [ ] GitHub
-			- [ ] GitLab
 		- [ ] Spigot scraper
 			- [ ] New plugins
 				- Check if plugin already exists, but does not have spigot version added in repository.
@@ -40,9 +41,11 @@
 		- analize of plugin file
 - [ ] Repository services v1.2
 	- [ ] Automatic dependency detection
-		- E.g. by using GPT-3 on README
+		- By using ~~GPT-3~~ trained NER model on README, Title, and Description
 	- [ ] Background image generator
 		- For newly created plugins
-		- Using minjourney/playgroundai.com
+		- Using minjourney/playgroundai.com / locally run Stable-Diffusion
 - [ ] Repository services v1.3
 	- [ ] Get Bukkit usernames from web.archive.org
+	- [ ] Version to Semantic Versioning
+		- !BLOCKER! Only works with OpenAI Davinci model, which is too expensive!
