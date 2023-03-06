@@ -5,17 +5,12 @@
 		- SeqToSeq
 			- [x] Temporary solution: Regex script
 	- [x] Url of a file to CID on IPFS
-	- [ ] Cache service (database interface)
+	- [x] Cache service (database interface)
 		- spigot / bukkit etc. id / name to repository name
 	- [ ] Scraper
 		- [x] Integrate Sentry
-		- [x] Version to SemVer
-		- [x] Generate unique and standardised name
-			- [x] Move from hardcoded to using GPT-3
-		- [ ] Save to repository
 		- [ ] Spigot scraper
-			- [ ] New plugins
-				- Check if plugin already exists, but does not have spigot version added in repository.
+			- [x] New plugins
 				- [x] Check if plugin is already in the repository, after pushing, add it to the repository
 			- [ ] Update
 				- [ ] Plugins data
@@ -49,3 +44,7 @@
 	- [ ] Get Bukkit usernames from web.archive.org
 	- [ ] Version to Semantic Versioning
 		- !BLOCKER! Only works with OpenAI Davinci model, which is too expensive!
+		- Try gpt3.5 chat model
+- [ ] Repository services v1.4
+	- [ ] Calculate difference between packages to make updates smaller in size
+		- Similarly to Steam update process / Delta RPM
