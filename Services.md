@@ -31,6 +31,8 @@
 			- [ ] Plugins data
 			- [ ] Versions
 	- [ ] BitBucket fetcher
+	- [ ] Scraper
+		- [ ] Automatically check "Are you a human" cloudflare captcha
 	- [ ] Supported game versions and api versions for certain version
 		- "-mc." in plugin name detection
 		- analize of plugin file
