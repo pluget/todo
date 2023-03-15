@@ -13,7 +13,7 @@
 			- [x] New plugins
 				- [x] Check if plugin is already in the repository, after pushing, add it to the repository
 			- [ ] Update
-				- [ ] Plugins data
+				- [x] Plugins data
 				- [ ] Versions
 		- [ ] Bukkit scraper
 			- [ ] New plugins
