@@ -12,9 +12,9 @@
 		- [ ] Spigot scraper
 			- [x] New plugins
 				- [x] Check if plugin is already in the repository, after pushing, add it to the repository
-			- [ ] Update
+			- [x] Update
 				- [x] Plugins data
-				- [ ] Versions
+				- [x] Versions
 		- [ ] Bukkit scraper
 			- [ ] New plugins
 			- [ ] Update
