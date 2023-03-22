@@ -9,7 +9,7 @@
 		- spigot / bukkit etc. id / name to repository name
 	- [ ] Scraper
 		- [x] Integrate Sentry
-		- [ ] Spigot scraper
+		- [x] Spigot scraper
 			- [x] New plugins
 				- [x] Check if plugin is already in the repository, after pushing, add it to the repository
 			- [x] Update
