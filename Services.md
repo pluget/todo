@@ -16,7 +16,7 @@
 				- [x] Plugins data
 				- [x] Versions
 		- [ ] Bukkit scraper
-			- [ ] New plugins
+			- [x] New plugins
 			- [ ] Update
 				- [ ] Plugins data
 				- [ ] Versions
