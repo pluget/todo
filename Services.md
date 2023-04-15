@@ -43,7 +43,7 @@
 		- By using ~~GPT-3~~ trained NER model on README, Title, and Description
 	- [ ] Background image generator
 		- For newly created plugins
-		- Using minjourney/playgroundai.com / locally run Stable-Diffusion
+		- Using midjourney/playgroundai.com / locally run Stable-Diffusion
 - [ ] Repository services v1.3
 	- [ ] Get Bukkit usernames from web.archive.org
 	- [ ] Version to Semantic Versioning
@@ -52,3 +52,5 @@
 - [ ] Repository services v1.4
 	- [ ] Calculate difference between packages to make updates smaller in size
 		- Similarly to Steam update process / Delta RPM
+		- Is it a good idea? I mean seems cool, but at the same time, it would be hard to implement, and to maintain.
+	- [ ] Rewrite parts of services, with performance in mind.
