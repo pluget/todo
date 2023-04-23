@@ -7,7 +7,7 @@
 	- [x] Url of a file to CID on IPFS
 	- [x] Cache service (database interface)
 		- spigot / bukkit etc. id / name to repository name
-	- [ ] Scraper
+	- [x] Scraper
 		- [x] Integrate Sentry
 		- [x] Spigot scraper
 			- [x] New plugins
@@ -15,17 +15,17 @@
 			- [x] Update
 				- [x] Plugins data
 				- [x] Versions
-		- [ ] Bukkit scraper
+		- [x] Bukkit scraper
 			- [x] New plugins
-			- [ ] Update
-				- [ ] Plugins data
-				- [ ] Versions
+			- [x] Update
+				- [x] Plugins data
+				- [x] Versions
+	- [ ] spigot.json / bukkit.json etc. to data.json
+- [ ] Repository services v1.1
 	- [ ] GitHub fetcher
 		- [ ] Update
 			- [ ] Plugins data
 			- [ ] Versions
-	- [ ] spigot.json / bukkit.json / github.json etc. to data.json
-- [ ] Repository services v1.1
 	- [ ] GitLab fetcher
 		- [ ] Update
 			- [ ] Plugins data
