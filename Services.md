@@ -22,6 +22,8 @@
 				- [x] Versions
 	- [ ] spigot.json / bukkit.json etc. to data.json
 - [ ] Repository services v1.1
+	- [ ] UNIT TESTS!!!
+		- Project is getting larger, and larger, and developing any feature at this point is very hard. After the initial release (v1.0) i plan on adding unit tests to it.
 	- [ ] GitHub fetcher
 		- [ ] Update
 			- [ ] Plugins data
@@ -36,8 +38,6 @@
 	- [ ] Supported game versions and api versions for certain version
 		- "-mc." in plugin name detection
 		- analize of plugin file
-	- [ ] UNIT TESTS!!!
-		- Project is getting larger, and larger, and developing any feature at this point is very hard. After the initial release (v1.0) i plan on adding unit tests to it.
 - [ ] Repository services v1.2
 	- [ ] Automatic dependency detection
 		- By using ~~GPT-3~~ trained NER model on README, Title, and Description
