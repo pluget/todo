@@ -32,7 +32,7 @@
 			- [ ] Versions
 	- [ ] BitBucket fetcher
 	- [ ] Scraper
-		- [ ] Automatically check "Are you a human" cloudflare captcha
+		- [ ] ? Automatically check "Are you a human" cloudflare captcha
 	- [ ] Supported game versions and api versions for certain version
 		- "-mc." in plugin name detection
 		- analize of plugin file
@@ -49,8 +49,9 @@
 	- [ ] Version to Semantic Versioning
 		- !BLOCKER! Only works with OpenAI Davinci model, which is too expensive!
 		- Try gpt3.5 chat model
+		- Maybe use trained NER model
 - [ ] Repository services v1.4
-	- [ ] Calculate difference between packages to make updates smaller in size
+	- [ ] ? Calculate difference between packages to make updates smaller in size
 		- Similarly to Steam update process / Delta RPM
-		- Is it a good idea? I mean seems cool, but at the same time, it would be hard to implement, and to maintain.
+		- Is it a good idea? I mean it seems cool, but at the same time, it would be hard to implement, and to maintain.
 	- [ ] Rewrite parts of services, with performance in mind.
