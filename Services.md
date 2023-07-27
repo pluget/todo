@@ -21,6 +21,7 @@
 				- [x] Plugins data
 				- [x] Versions
 	- [ ] spigot.json / bukkit.json etc. to data.json
+		- [ ] Make versions object the file (in gameVersions)
 - [ ] Repository services v1.1
 	- [ ] UNIT TESTS!!!
 		- Project is getting larger, and larger, and developing any feature at this point is very hard. After the initial release (v1.0) i plan on adding unit tests to it.
